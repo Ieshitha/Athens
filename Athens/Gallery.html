@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+	<link rel="stylesheet" href="Cascading Style Sheets/GalleryCSS.css" />
+    <script src="JScripts/gallerly.js"></script>
+	<script src="JScripts/zoom.js"></script>
+    <link rel="stylesheet" href="Cascading Style Sheets/stylesheet.css" />
+    
+
+
+</head>
+
+<body id="zoom-text">
+	
+    <div class="container">
+		
+        <div id="logo">
+            <a name="topper"></a>
+            <img id="logoImage" src="Images/athens logo.png" alt="logo">
+        </div>
+
+        <div class="navbar">
+           <ul>
+					<li><a class="link" href = "Main.html" >Home</a></li>
+					<li><a class="link" href = "Products.html">Products</a></li>
+					<li><a class="link" href = "Quiz.html">Quiz</a></li>
+					<li><a class="link" href = "#" id="sub-content">Explore</a>
+						<div class="sub-menu">
+							<ul class="sub-ul" >
+								<li class="li"><a href="Cricket.html" class="a">Cricket</a></li>
+								<li class="li"><a href="Tennis.html" class="a">Tennis</a></li>
+								<li class="li"><a href="Swimming.html" class="a">Swimming</a></li>
+								<li class="li"><a href="HOCKEY.html" class="a">Hocky</a></li>
+							</ul>
+						</div></li>
+						
+					<li><a class="link" href = "Gallery.html">Gallery</a></li>
+					<li><a class="link" href = "Sitemap.html">Sitemap</a></li>
+					<li><a class="link" href = "#">About us</a>
+						<div class="sub-menu">
+							<ul class="sub-ul" >
+								<li class="li"><a href="Feedback.html" class="a">Academy</a></li>
+								<li class="li"><a href="Team.html" class="a">Team</a></li>
+							</ul>
+						</div></li>
+				</ul>
+            <input class="zoom" type="button" id="zoom-btn" value="+" onClick="document.getElementById('zoom-text').style.fontSize = '2.0em'" />
+            <input class="zoom" type="button" id="zoom-btn" value="-" onClick="document.getElementById('zoom-text').style.fontSize = '1.0em'" />
+        </div>
+
+    <div id="gallerly">
+        <h1 style="margin:50px auto;color: aliceblue;">Gallery</h1>
+        <div class="image-viewer">
+            <a class="thumbnail"><img onclick="yellow(id)" id="one" style="width: 300px ;height: 200px" src="Images/Cups.jpg" data-title="Gallery Image" data-description="Athenes Academy has won many awards, medals,certificates by both government and private sectors." /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="two" style="width: 300px ;height: 200px" src="Images/Cricket.jpg" data-title="Gallery Image" data-description="This is a photograph which was taken on 12th of Octomber 2018 when our academy won the championship of cricket world cup 2018 organized by ASAK sports club."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="three" style="width: 300px ;height: 200px" src="Images/Ground.jpg" data-title="Gallery Image" data-description="Our academy has a fully facilitated cricket ground with a statdium which can provide space for 3500 people at once."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="four" style="width: 300px ;height: 200px" src="Images/Gym.jfif" data-title="Gallery Image" data-description="Our academy has a fully completed gymanasium, we have upgraded the gym with latest equipments to give you the best expierience."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="five" style="width: 300px ;height: 200px" src="Images/Hockey.jpg" data-title="Gallery Image" data-description="This is under 19 men's hockey team.The photograph was taken at the 2019 hockey world cup.Our team has won the 1st place."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="six" style="width: 300px ;height: 200px" src="Images/Turf.jpg" data-title="Gallery Image" data-description="Our academy has fully facilitated artificial hockey ground 100m long and 50m in width." /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="seven" style="width: 300px ;height: 200px" src="Images/Tennis.jfif" data-title="Gallery Image" data-description="Our academy has a fully facilitated tennis court developed into an international level. We have an arrangement to buy tennis equipments for a reasonable price."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="eight" style="width: 300px ;height: 200px" src="Images/Swimming.jpg" data-title="Gallery Image" data-description="Our academy has a fully facilitated Swimming pool which is 100m long and also we have international level coaches to guide the members."
+                /></a>
+            <a class="thumbnail"><img onclick="yellow(id)" id="nine" style="width: 300px ;height: 200px" src="Images/Dance.jpg" data-title="Gallery Image" data-description="We have arranged an annual dinner dance for our members , so they can enjoy,they can get to know each other and have some fun time."
+                /></a>
+		</div>
+        </div>
+		
+		
+		
+		  <!-- footer-->
+			<div id="footer">
+				<div id="footerLogo">
+					<img id= "footerImage" src = "Images/athens logo.png" alt="logo">
+				</div>
+				<div id="copyrights">
+					<a id="top" href = "#topper"><img id="back" src="Images/back.png" alt="back"/><br>back to top</a>
+					<a id="editor" href="PageEditor4.html"><img id="user" src="Images/user.png" alt="user"/><br>Page Editor</a><br/><br/><br/><br/>
+					<h3 class="footer-h3" id="copy-blue">© 2020 ATHENS ACADEMY. ALL RIGHTS RESERVED.</h3>	
+					
+				</div>
+				<div id="address">
+					<h3 class="footer-h3" >Athens Acadamy</h3>
+					<p class="footer-para">45, High Level  Road, <br/>Pepiliyana, Colombo</p>
+					<h3 class="footer-h3">Contact us</h3>
+					<p class="footer-para">Hotline : +94 113 56 2177<br/>Fax : +94 113 56 2177<br/>Email : Aethensacademy@gmail.com</p>
+				</div>
+				<div id="contact">
+					<ul class="footer-h3"> Navigation
+						<li><a class="link" href = "Main.html" >Home</a></li>
+						<li><a class="link" href = "Products.html">Products</a></li>
+						<li><a class="link" href = "Quiz.html">Quiz</a></li>
+						<li><a class="link" href = "Cricket.html" >Explore</a></li>
+						<li><a class="link" href = "Gallery.html">Gallery</a></li>
+						<li><a class="link" href = "Sitemap.html">Sitemap</a></li>
+						<li><a class="link" href = "Feedback.html">About us</a></li>
+					</ul>
+				</div>
+			</div>
+ </div>
+
+</body>
+
+</html>
